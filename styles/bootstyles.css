@@ -1,0 +1,67 @@
+/*Olivia Kitterman 12/6*/
+
+.common {
+    position: relative;
+    background-image: url('../images/tableaubg.jpg');
+    background-position: top right;
+}
+
+.header {
+    /*intra-site navigation*/
+    top: 5px;
+    height: 100px;
+    right: 5px;
+    left: 5px;
+}
+
+.mainbody {
+    /*live tableau dashboards*/
+    top: 105px;
+    bottom: 55px;
+    right: 5px;
+    left: 5px;
+    padding: 30px;
+}
+
+.footer {
+    /*copyright, year, name, social profile*/
+    background-color: rgb(163, 162, 162);
+    position: fixed;
+    height: 50px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    text-align: center;
+    padding: 3px;
+}
+
+.navigation {
+    font-size: 1.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: saddlebrown;
+    font-size: 3rem;
+}
+
+.caption {
+    font-size: 0.85rem;
+    font-style: italic;
+    color: rgb(53, 51, 51);
+}
+
+a {
+    text-decoration: none;
+    color: #e6a756;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #704103;
+}
